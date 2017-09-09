@@ -1,0 +1,19 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "this is package for cs 546 lab2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yanyang729@gmail.com"
+  },
+  "keywords": [
+    "lab2"
+  ],
+  "author": "Yang Yang",
+  "license": "ISC"
+}

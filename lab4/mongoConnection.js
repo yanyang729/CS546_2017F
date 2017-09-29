@@ -7,7 +7,7 @@ let fullMongoUrl = 'mongodb://localhost:27017/Yang_Yang_lab4'
 
 let _connection = undefined
 
-let getDbFn = async () => {
+module.exports = async () => {
   if (!_connection) {
     _connection = await MongoClient.connect(fullMongoUrl)
   }
@@ -15,5 +15,4 @@ let getDbFn = async () => {
   return _connection
 }
 
-module.exports = getDbFn
 
